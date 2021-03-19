@@ -1,8 +1,6 @@
-import logo from './logo.svg';
-import './App.css';
-import Counter from './../Counter/Counter'
+import Counter from '../Counter/Counter'
 
-function App() {
+function CounterApp() {
     return ( 
         // In order to render multiple components, they must be placed in a div.
         // Alternatively, you can use an empty <>.
@@ -12,4 +10,4 @@ function App() {
     );
 }
 
-export default App;
+export default CounterApp;
