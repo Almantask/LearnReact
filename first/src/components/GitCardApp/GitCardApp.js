@@ -5,14 +5,6 @@ import SearchForm from "../SearchForm/SearchForm.js";
 import testData from "./DummyData.js";
 
 class GitCardApp extends React.Component{
-    // either this
-    // constructor(props){
-    //     super(props);
-    //     this.state = {
-    //         profiles: testData
-    //     }
-    // }
-    // or this
     state = {
         profiles: testData
     }
@@ -23,7 +15,6 @@ class GitCardApp extends React.Component{
         }))
     };
 
-    // must have
     render(){
         return (
             <div>
@@ -34,8 +25,5 @@ class GitCardApp extends React.Component{
         )
     }
 }
-// const App = ({title}) => (
-//     <div className="header">{title}</div>
-// );
 
 export default GitCardApp;
